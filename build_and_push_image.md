@@ -8,4 +8,6 @@
 - docker tag gcr.io/<project-id>/<name-image>:v0.1.0 gcr.io/<project-id>/<another-name-image>:v0.1.0
 
 - docker rmi <image-id>
+
+- docker rmi $(docker images -a -q)
 ```
