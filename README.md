@@ -13,7 +13,7 @@ kubectl delete -f kub_config.yaml
 kubectl logs hellopwd --previous
 
 Resources Kubernetes:
-- pod
+- pod: encapsula containers
 - rs
 - deploy
 - vol
