@@ -11,3 +11,17 @@ kubectl describe pod <pod-name>
 kubectl delete -f kub_config.yaml
 
 kubectl logs hellopwd --previous
+
+Resources Kubernetes:
+- pod
+- rs
+- deploy
+- vol
+- hpa
+- pv
+- irg
+- pvc
+- svc
+- sc
+- ds
+- quota
